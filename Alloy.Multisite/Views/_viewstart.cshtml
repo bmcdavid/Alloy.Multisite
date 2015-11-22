@@ -1,0 +1,6 @@
+@{
+    var contentLoader = EPiServer.ServiceLocation.ServiceLocator.Current.GetInstance<EPiServer.IContentRepository>();
+    var startPage = contentLoader.Get<Alloy.Multisite.Models.Pages.StartPage>(EPiServer.Core.ContentReference.StartPage);
+
+    Layout = string.Format("{0}/_Root.cshtml", startPage.SiteLayout);
+}
