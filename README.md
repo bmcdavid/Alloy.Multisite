@@ -7,7 +7,7 @@ local2.alloy.com
 local3.alloy.com
 `
 
-Add host entry files for above bindings in for 127.0.0.1
+Add host entry lines for above bindings for 127.0.0.1 in the following file:
 
 `
 C:\Windows\System32\drivers\etc\hosts
